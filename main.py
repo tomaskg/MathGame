@@ -51,11 +51,6 @@ def get_user_input():
     while True:
       try:
         operations = input("Enter the math operations (+, -, *) you want to practice with: ")
-        good_input = True
-      except ValueError:
-        print(Fore.RED + "Error: Invalid math operations. Please enter a number." + Style.RESET_ALL)
-        continue
-        
       # Make sure the operations are valid
       if operations not in ["+", "-", "*"]:
         print(Fore.RED + "Error: Invalid math operations. Please enter a number." + Style.RESET_ALL)
