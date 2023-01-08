@@ -1,5 +1,5 @@
 # MathGame
-This is a simple math game made in Python. Addition, subtraciton, and multiplication with whole numbers or decimals. It tests you and shows your time and accuracy. 
+This is a simple math game made in Python. Choose addition, subtraction, or multiplication with whole numbers or decimals. It tests you and shows your time and accuracy. 
 
 
 How to run: 
